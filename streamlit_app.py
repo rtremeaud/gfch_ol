@@ -1,7 +1,6 @@
-import streamlit as st
+import pandas as pd
+from awesome_table import AwesomeTable
 
-st.button("Reset", type="primary")
-if st.button('Say hello'):
-    st.write('Why hello there')
-else:
-    st.write('Goodbye')
+sample_data = {...}
+
+AwesomeTable(pd.json_normalize(sample_data))
