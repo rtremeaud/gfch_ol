@@ -1,7 +1,7 @@
-pip install streamlit-pandas-profiling
+import streamlit as st
 import pandas as pd
-from awesome_table import AwesomeTable
+import numpy as np
+import math
+import random
 
-sample_data = {...}
-
-AwesomeTable(pd.json_normalize(sample_data))
+st.write('Hi!')
