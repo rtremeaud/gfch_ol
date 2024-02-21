@@ -1,3 +1,4 @@
+pip install streamlit-pandas-profiling
 import pandas as pd
 from awesome_table import AwesomeTable
 
